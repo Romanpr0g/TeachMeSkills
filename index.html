@@ -33,8 +33,23 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     <button class="btn">Download</button>
                 </div>
-                <div class="form">
-                </div>
+                <form action="#" name="meet-form" method="post" class="meet_form">
+                    <div class="meet_form_input">
+                        <h4 class="form_title">Try Your <span>FREE</span> Trial Today</h4>
+                        <div class="form_input_block">
+                            <div class="meet_form_input_element">
+                                <input type="text" placeholder="Name" name="name" id="name">
+                            </div>
+                            <div class="meet_form_input_element">
+                                <input type="email" id="em" placeholder="Email" name="email" required>
+                            </div>
+                            <div class="meet_form_input_element">
+                                <input type="password" id="pass" placeholder="Password" required>
+                            </div>
+                        </div>    
+                    </div>
+                    <button class="title_form_btn">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
@@ -245,12 +260,32 @@
             <button class="stylish_btn">Download</button>
         </div>
     </section>
-    <section class="contact_us">
+    <section class="contact_us" id="Contact">
         <div class="wrapper">
             <h2 class="title title-section">contact us</h2>
             <p class="contact_us_subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <form class="fr"></form>
-        </div>
+            <form action="#" name="new-form" id="form" method="post" class="contact_us_form">
+                <div class="form_input">
+                    <div class="form_input_element">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form_input_element">
+                        <label for="em">Email</label>
+                        <input type="email" id="em" name="email" required>
+                    </div>
+                    <div class="form_input_element">
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" required>
+                    </div>
+                </div>
+                <div class="form_message">
+                    <label for="messg">Message</label>
+                    <textarea name="" id="messg" cols="30" rows="10"></textarea>
+                </div>
+                <button class="form_btn">Send Message</button>
+            </form>
+        </div>  
     </section>
     <footer>
         <div class="footer_wrapper wrapper">
