@@ -114,7 +114,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 29px 50px 75px 50px;
+    padding: 29px 50px 0px 50px;
+    gap: 73px;
 }
 
 .form_input_block {
@@ -129,8 +130,21 @@
     outline: none;
     border: 0;
     border-bottom: 1px solid #BDBDBD;
-    min-height: 16px;
+    min-height: 38px;
+    width: 100%;
+}
 
+.meet_form_input_element input::placeholder {
+    position: relative;
+    top: -10px;
+    color: #BDBDBD;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.meet_form_input_element input:focus::placeholder {
+    opacity: 0;
 }
 
 .form_title {
