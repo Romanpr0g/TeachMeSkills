@@ -619,7 +619,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
 }
 
 .form_input,
@@ -631,6 +630,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 30px;
+    margin-bottom: 50px;
 }
 
 .form_input_element {
@@ -641,6 +642,7 @@
 .form_message {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .form_input_element label,
