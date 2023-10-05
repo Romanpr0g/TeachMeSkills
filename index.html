@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="nav">
-        <div class="wrapper">
+        <div class="wrapper header_wrapper">
             <div class="nav_block">
                 <div class="logo">
                     <img src="assets/images/logo.svg" alt="logo">
@@ -21,11 +21,16 @@
                     <a href="#Reviews" class="links_element">Reviews</a>
                     <a href="#Contact" class="links_element">Contact</a>
                 </div>
+                <div class="links_burger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18" fill="none">
+                        <path d="M0 0H24V3H0V0ZM0 7.5H24V10.5H0V7.5ZM0 15H24V18H0V15Z" fill="white"/>
+                    </svg>
+                </div>
             </div>
         </div>
     </header>
     <section class="fon">
-        <div class="wrapper">
+        <div class="wrapper fon_wrapper">
             <div class="meet_screen">
                 <div class="meet_screen_info">
                     <img src="assets/images/logo.svg" alt="logo">
@@ -48,7 +53,7 @@
                             </div>
                         </div>    
                     </div>
-                    <button class="title_form_btn">Send Message</button>
+                    <button class="title_form_btn">Get Started</button>
                 </form>
             </div>
         </div>
@@ -101,19 +106,18 @@
                     <h3 class="title-tabs">Tabs with soft transitioning effect.</h3>
                     <h5 class="main-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
                         justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
                         penatibus et magnis dis parturient montes.
                         <br>
                         <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod
                         bibendum laoreet.
                     </h5>
                     <button class="download-button">Download</button>
                 </div>
-                <div class="picture">
-                    <img src="assets/images/Rectangle 111.jpg" alt="statue_svobody">
-                </div>
+                <img src="assets/images/Rectangle 111.jpg" alt="statue_svobody">
             </div>         
         </div>
     </section>
@@ -125,7 +129,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
             </div>
             <div class="cards">
-                <div class="firstElement">
+                <div class="cards_element">
                     <img src="assets/images/about_icon_1.svg" alt="svg">
                     <h4>Thoughtful Design</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -133,7 +137,7 @@
                         dolor sit amet lacus accumsan et viverra.
                     </p>
                 </div>
-                <div class="secondElement">
+                <div class="cards_element">
                     <img src="assets/images/about_icon_2.svg" alt="svg">
                     <h4>Thoughtful Design</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -141,7 +145,7 @@
                         dolor sit amet lacus accumsan et viverra.
                     </p>
                 </div>
-                <div class="thirdElement">
+                <div class="cards_element">
                     <img src="assets/images/about_icon_1.svg" alt="svg">
                     <h4>Thoughtful Design</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -163,12 +167,12 @@
                     <h3 class="card-price">$10</h3>
                     <h5 class="card-subtitle">Free for life</h5>
                     <ul class="card-list">
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
                     </ul>
                 </div>
                 <div class="card">
@@ -176,12 +180,12 @@
                     <h3 class="card-price">$20</h3>
                     <h5 class="card-subtitle">Free for life</h5>
                     <ul class="card-list">
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
                     </ul>
                 </div>
                 <div class="card">
@@ -189,12 +193,12 @@
                     <h3 class="card-price">$30</h3>
                     <h5 class="card-subtitle">Free for life</h5>
                     <ul class="card-list">
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
-                        <il class="card-list-el">1 gb of space</il>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
+                        <li class="card-list-el">1 gb of space</li>
                     </ul>
                 </div>
             </div>
@@ -203,9 +207,9 @@
     <section class="customers" id="Reviews">
         <div class="wrapper">
             <h2 class="title title-section">what our customers are saying</h2>
-            <h5 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <h5 class="customers_subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
             <div class="comments">
-                <div>
+                <div class="comments_block">
                     <p class="comments_element">Lorem ipsum dolor sit amet, 
                         consectetur adipisicing elit. Doloribus 
                         accusamus expedita repellat similique 
@@ -220,7 +224,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="comments_block">
                     <p class="comments_element">Lorem ipsum dolor sit amet, 
                         consectetur adipisicing elit. Doloribus 
                         accusamus expedita repellat similique 
@@ -235,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="comments_block">
                     <p class="comments_element">Lorem ipsum dolor sit amet, 
                         consectetur adipisicing elit. Doloribus 
                         accusamus expedita repellat similique 
@@ -265,23 +269,25 @@
             <h2 class="title title-section">contact us</h2>
             <p class="contact_us_subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <form action="#" name="new-form" id="form" method="post" class="contact_us_form">
-                <div class="form_input">
-                    <div class="form_input_element">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" required>
+                <div class="contact_us_form_main">
+                    <div class="form_input">
+                        <div class="form_input_element">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="form_input_element">
+                            <label for="em">Email</label>
+                            <input type="email" id="em" name="email" required>
+                        </div>
+                        <div class="form_input_element">
+                            <label for="pass">Password</label>
+                            <input type="password" id="pass" required>
+                        </div>
                     </div>
-                    <div class="form_input_element">
-                        <label for="em">Email</label>
-                        <input type="email" id="em" name="email" required>
+                    <div class="form_message">
+                        <label for="messg">Message</label>
+                        <textarea name="" id="messg" cols="30" rows="10"></textarea>
                     </div>
-                    <div class="form_input_element">
-                        <label for="pass">Password</label>
-                        <input type="password" id="pass" required>
-                    </div>
-                </div>
-                <div class="form_message">
-                    <label for="messg">Message</label>
-                    <textarea name="" id="messg" cols="30" rows="10"></textarea>
                 </div>
                 <button class="form_btn">Send Message</button>
             </form>
