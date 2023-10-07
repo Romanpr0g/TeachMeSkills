@@ -48,13 +48,12 @@
     background-image: url("../assets/images/fon.png");
     background-repeat: no-repeat;
 	background-size: cover;
-    padding-bottom: 185px;
+    padding: 283px 0 185px 0;
 }
 
 .meet_screen {
     display: flex;
     justify-content: space-between;
-    padding: 283px 0 185px 0;
     gap: 30px;
 }
 
@@ -763,7 +762,7 @@ footer {
         padding-right: 20px;
     }
 
-    .meet_screen {
+    .fon {
         padding-top: 212px;
         padding-bottom: 106px;
     }
@@ -1152,4 +1151,161 @@ footer {
     .links_burger {
         padding-right: 0;
     }
+
+    .fon {
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+
+    .first_title {
+        padding-bottom: 44px;
+        margin-bottom: 42px;
+    }
+
+    .meet_screen_info p {
+        margin-bottom: 42px;
+    }
+
+    .btn {
+        width: 288px;
+    }
+
+    .meet_screen {
+        gap: 56px;
+    }
+
+    .form_title {
+        font-size: 14px;
+    }
+
+    .form_title span {
+        font-size: 14px;
+    }
+
+    .meet_form_input {
+        padding: 36px 28px 0 20px;
+        gap: 35px;
+    }
+
+    .meet_form {
+        gap: 51px;
+    }
+
+    .fon_wrapper {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .social_media {
+        padding-top: 41px;
+        padding-bottom: 44px;
+    }
+
+    .social_media_icons a svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .social_media_icons {
+        gap: 17px;
+    }
+
+    .information {
+        padding-top: 41px;
+    }
+
+    .tabs-el {
+        width: 93px;
+    }
+
+    .tabs-el:first-child {
+        width: 103px;
+    }
+
+    .content {
+        padding: 44px 20px 30px 25px;
+    }
+
+    .title-tabs {
+        text-align: center;
+        margin-bottom: 65px;
+        font-size: 18px;
+    }
+
+    .main-text {
+        text-align: center;
+        margin-bottom: 29px;
+        font-size: 13px;
+    }
+
+    .download-button {
+        width: 242px;
+        height: 50px;
+    }
+
+    .about-us {
+        padding-top: 50px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin-bottom: 49px;
+    }
+
+    .line {
+        width: 134px;
+        margin-bottom: 25px;
+    }
+
+    .wrapper {
+        padding: 0 16px;
+    }
+
+    .head p {
+        font-size: 13px;
+        margin-bottom: 50px;
+    }
+
+    .cards {
+        gap: 10px;
+    }
+
+    .pricing {
+        padding-top: 46px;
+        padding-bottom: 26px;
+    }
+
+    .pricing_title {
+        font-size: 24px;
+        margin-bottom: 46px;
+    }
+
+    .subtitle {
+        margin-bottom: 24px;
+    }
+
+    .card-block {
+        gap: 27px;
+    }
+
+    .card-title {
+        min-height: 47px;
+        font-size: 18px;
+    }
+
+    .card-price {
+        min-height: 78px;
+        font-size: 24px;
+    }
+
+    .card-subtitle {
+        min-height: 39px;
+        font-size: 14px;
+    }
+
+    .card-list-el {
+        min-height: 39px;
+        font-size: 14px;
+    }
 }
+
